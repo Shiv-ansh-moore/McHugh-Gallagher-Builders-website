@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const HomeServices = () => {
   return (
     <>
-      <div className="flex justify-evenly pt-2 w-full flex-wrap">
+      <div className="flex justify-evenly mt-7 w-full flex-wrap">
         <div className="p-5">
           <Card
             image="src\images\new_builds.jpg"

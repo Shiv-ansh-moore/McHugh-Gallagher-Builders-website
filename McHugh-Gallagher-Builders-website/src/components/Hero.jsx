@@ -37,7 +37,7 @@ const Hero = () => {
   return (
     <div className="flex relative mr-[4vw]" ref={parentRef}>
       <div className="z-40 flex flex-col justify-center w-[50vw]">
-        <h1 className="text-7xl  font-bold ml-[4vw] pb-9">
+        <h1 className="text-[4vw]  font-bold ml-[4vw] pb-9">
           McHugh & Gallagher Builders Ltd
         </h1>
         <div className="flex ml-[4vw]">

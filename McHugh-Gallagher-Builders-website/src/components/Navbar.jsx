@@ -10,16 +10,16 @@ const Navbar = () => {
         </Link>
         <div className="ml-auto mt-auto text-lg">
           <ul className="flex">
-            <li className="pl-2.5 pr-2.5 hover:bg-slate-200">
+            <li className="rounded-md pl-2.5 pr-2.5 hover:bg-slate-200">
               <Link to="/">Home</Link>
             </li>
-            <li className="pl-2.5 pr-2.5 hover:bg-slate-200">
+            <li className="rounded-md pl-2.5 pr-2.5 hover:bg-slate-200">
               <Link to="/Gallery">Gallery</Link>
             </li>
-            <li className="pl-2.5 pr-2.5 hover:bg-slate-200">
+            <li className="rounded-md pl-2.5 pr-2.5 hover:bg-slate-200">
               <Link to="/Services">Services</Link>
             </li>
-            <li className="pl-2.5 pr-5 hover:bg-slate-200">
+            <li className="rounded-md pl-2.5 hover:bg-slate-200">
               <Link to="/Contact">Contact</Link>
             </li>
           </ul>

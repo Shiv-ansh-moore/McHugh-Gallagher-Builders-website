@@ -2,7 +2,8 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import HomeServices from "../components/HomeServices";
-import Testimonial from "../components/Testimonial";
+import TestimonialsCarousel from "../components/TestimonialCarosel";
+import Widgets from "../components/Widgets";
 
 const Home = () => {
   return (
@@ -10,7 +11,8 @@ const Home = () => {
         <Navbar/>
         <Hero/>
         <HomeServices/>
-        <Testimonial/>
+        <TestimonialsCarousel/>
+        <Widgets/>
     </div>
   );
 };
