@@ -3,12 +3,12 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="sticky top-0 z-50">
-      <div className="flex font-bob  bg-slate-100 h-[57px]">
-        <Link to="/" className="pl-1 mt-auto font-bold text-2xl ml-[4vw]">
+    <div className="z-50 ml-[4vw] mr-[4vw]">
+      <div className="flex font-bob h-[57px]">
+        <Link to="/" className="pl-1 mt-auto font-bold text-2xl">
           <h1>McHugh & Gallagher Builders Ltd</h1>
         </Link>
-        <div className="ml-auto mt-auto text-lg mr-[4vh]">
+        <div className="ml-auto mt-auto text-lg">
           <ul className="flex">
             <li className="pl-2.5 pr-2.5 hover:bg-slate-200">
               <Link to="/">Home</Link>
