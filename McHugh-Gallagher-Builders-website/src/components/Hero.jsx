@@ -35,19 +35,23 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className="flex relative mr-[4vw]" ref={parentRef}>
+    <div className="flex relative mr-[4vw] font-bob max-h-[60vh]" ref={parentRef}>
       <div className="z-40 flex flex-col justify-center w-[50vw]">
-        <h1 className="text-[4vw]  font-bold ml-[4vw] pb-9">
+        <h1 className="text-[4vw]  font-bold ml-[4vw] ">
           McHugh & Gallagher Builders Ltd
         </h1>
+        <div className="ml-[4vw] text-[2vw] pb-5 italic">
+          <p>"Trusted Construction Services  </p>
+          <p>for over 40 Years"</p>
+        </div>
         <div className="flex ml-[4vw]">
           <Link to="/Contact">
-            <button className="bg-yellow-300 h-8 text-lg font-bob font-semibold w-[120px] mr-10 rounded-xl">
+            <button className="bg-yellow-300 h-8 text-lg font-semibold w-[120px] mr-10 rounded-xl">
               Contact now
             </button>
           </Link>
           <Link to="/Services">
-            <button className="bg-yellow-300 h-8 text-lg font-bob font-semibold w-[120px] rounded-xl">
+            <button className="bg-yellow-300 h-8 text-lg font-semibold w-[120px] rounded-xl">
               See Services
             </button>
           </Link>
@@ -57,12 +61,13 @@ const Hero = () => {
         <img
           ref={imageRef}
           src="src/images/hero.webp"
-          className="min-w-[60vw] max-w-[70vw] max-h-[65vh] opacity-90"
+          className="min-w-[60vw] max-w-[70vw] max-h-[60vh] opacity-90"
           alt="Hero Image"
         />
       </div>
     </div>
   );
 };
+
 
 export default Hero;

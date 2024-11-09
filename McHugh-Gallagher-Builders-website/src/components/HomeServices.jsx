@@ -10,9 +10,7 @@ const HomeServices = () => {
             image="src\images\new_builds.jpg"
             alt="Picture of new house"
             title="New Builds"
-            description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni sequi quo omnis temporibus 
-          nihil, alias perspiciatis eaque assumenda recusandae beatae sapiente repudiandae 
-          reiciendis consectetur. Praesentium blanditiis suscipit ipsa aperiam tempora?"
+            description="Building custom homes from the ground up with precision and expertise."
           />
         </div>
         <div className="p-5">
@@ -20,9 +18,7 @@ const HomeServices = () => {
             image="src\images\extensions.jpg"
             alt="Newly built extension"
             title="Extensions"
-            description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni sequi quo omnis temporibus 
-          nihil, alias perspiciatis eaque assumenda recusandae beatae sapiente repudiandae 
-          reiciendis consectetur. Praesentium blanditiis suscipit ipsa aperiam tempora?"
+            description="Seamlessly expand your living space with our tailored extension services."
           />
         </div>
         <div className="p-5">
@@ -30,9 +26,7 @@ const HomeServices = () => {
             image="src\images\curch.jpg"
             alt="Picture of Renovation done on a chruch"
             title="Renovations"
-            description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni sequi quo omnis temporibus 
-          nihil, alias perspiciatis eaque assumenda recusandae beatae sapiente repudiandae 
-          reiciendis consectetur. Praesentium blanditiis suscipit ipsa aperiam tempora?"
+            description="Transform and modernize your home with comprehensive renovation solutions."
           />
         </div>
         <div className="p-5">
@@ -40,18 +34,9 @@ const HomeServices = () => {
             image="src\images\interiors.jpg"
             alt="Interior of a G=gym"
             title="Interiors"
-            description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni sequi quo omnis temporibus 
-          nihil, alias perspiciatis eaque assumenda recusandae beatae sapiente repudiandae 
-          reiciendis consectetur. Praesentium blanditiis suscipit ipsa aperiam tempora?"
+            description="Elevate your interior spaces with expertly designed and executed finishes,"
           />
         </div>
-      </div>
-      <div className="pt-2 flex justify-center">
-        <Link to="/Services">
-          <button className="bg-yellow-300 h-8 text-lg font-bob font-semibold w-[120px] rounded-xl">
-            See More
-          </button>
-        </Link>
       </div>
     </>
   );

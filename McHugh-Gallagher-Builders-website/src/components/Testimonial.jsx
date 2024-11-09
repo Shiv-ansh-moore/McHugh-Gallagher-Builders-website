@@ -4,7 +4,7 @@ const Testimonial = ({ name, text }) => {
     <>
       <div className="font-bob ">
         <div className="flex justify-center">
-          <h1 className="text-5xl font-bold">Reviews</h1>
+          <h1 className="text-4xl p-2 font-bold">Reviews</h1>
         </div>
         <div className="flex justify-center">
           <div className="text-center pt-2 max-w-[70vw]">
