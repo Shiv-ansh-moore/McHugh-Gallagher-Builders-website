@@ -7,8 +7,8 @@ const ServicesComponent = () => {
       <div className="flex flex-wrap justify-evenly">
         <div className="p-5">
           <Card
-            image="src\images\new_builds.jpg"
-            alt="Picture of new house"
+            image="src/images/new_builds.jpg"
+            alt="Picture of a newly built house"
             title="New Builds"
             description="Building custom homes from the ground up with precision and expertise."
             link="/Services/NewBuilds"
@@ -16,8 +16,8 @@ const ServicesComponent = () => {
         </div>
         <div className="p-5">
           <Card
-            image="src\images\extensions.jpg"
-            alt="Newly built extension"
+            image="src/images/extensions.jpg"
+            alt="Newly built home extension"
             title="Extensions"
             description="Seamlessly expand your living space with our tailored extension services."
             link="/Services/Extensions"
@@ -25,8 +25,8 @@ const ServicesComponent = () => {
         </div>
         <div className="p-5">
           <Card
-            image="src\images\REVO.jpg"
-            alt="Picture of Renovation done on a chruch"
+            image="src/images/REVO.jpg"
+            alt="Renovation work on a church"
             title="Renovations"
             description="Transform and modernize your home with comprehensive renovation solutions."
             link="/Services/Renovations"
@@ -34,69 +34,70 @@ const ServicesComponent = () => {
         </div>
         <div className="p-5">
           <Card
-            image="src\images\interiors.jpg"
-            alt="Interior of a G=gym"
+            image="src/images/interiors.jpg"
+            alt="Interior design of a gym"
             title="Interiors"
-            description="Elevate your interior spaces with expertly designed and executed finishes,"
+            description="Elevate your interior spaces with expertly designed and executed finishes."
             link="/Services/Interior"
           />
         </div>
         <div className="p-5">
           <Card
-            image="src\images\Joinery.jpg"
-            alt=""
+            image="src/images/Joinery.jpg"
+            alt="Custom joinery work in a modern kitchen"
             title="Joinery"
-            description=""
-            link="/Services/"
+            description="Crafting bespoke joinery solutions to enhance the beauty and functionality of your spaces."
+            link="/Services/JoineryService"
           />
         </div>
         <div className="p-5">
           <Card
-            image="src\images\HSE.jpg"
-            alt=""
-            title="HSE work"
-            description=""
-            link="/Services/"
+            image="src/images/HSE.jpg"
+            alt="Health, Safety, and Environment work in construction"
+            title="HSE Work"
+            description="Trusted by the HSE to uphold the highest standards"
+            link="/Services/HSEWorks"
           />
         </div>
         <div className="p-5">
           <Card
-            image="src\images\curch.jpg"
-            alt=""
+            image="src/images/curch.jpg"
+            alt="Council-approved construction project"
             title="Council Work"
-            description=""
-            link="/Services/"
+            description="Managing and executing construction projects in compliance with local council regulations."
+            link="/Services/CouncilWorks"
           />
         </div>
         <div className="p-5">
           <Card
-            image="src\images\Sunroom.jpg"
-            alt=""
+            image="src/images/Sunroom.jpg"
+            alt="Bright and airy sunroom with panoramic views"
             title="Sunrooms"
-            description=""
-            link="/Services/"
+            description="Designing and building sunrooms that bring the outdoors inside."
+            link="/Services/Sunrooms"
           />
         </div>
         <div className="p-5">
           <Card
-            image="src\images\Insurance.webp"
-            alt=""
+            image="src/images/Insurance.webp"
+            alt="Insurance services for construction projects"
             title="Insurance"
-            description=""
-            link="/Services/"
+            description="Providing comprehensive insurance solutions to protect your construction investments."
+            link="/Services/InsuranceWorks"
           />
         </div>
         <div className="p-5">
           <Card
-            image="src\images\school.jpg"
-            alt=""
+            image="src/images/school.jpg"
+            alt="Construction project for educational institutions"
             title="Schools"
-            description=""
-            link="/Services/"
+            description="Specializing in the construction and renovation of educational facilities."
+            link="/Services/Schools"
           />
         </div>
       </div>
     </div>
   );
 };
+
 export default ServicesComponent;

@@ -1,6 +1,4 @@
 import React from "react";
-import Navbar from "../components/Navbar";
-import Hero from "../components/Hero";
 import HomeServices from "../components/HomeServices";
 import TestimonialsCarousel from "../components/TestimonialCarosel";
 import Widgets from "../components/Widgets";
@@ -12,7 +10,6 @@ const Home = () => {
   return (
     <div>
       <Hero2 />
-      {/* <Hero /> */}
       <Introduction />
       <HomeServices />
       <TestimonialsCarousel />
