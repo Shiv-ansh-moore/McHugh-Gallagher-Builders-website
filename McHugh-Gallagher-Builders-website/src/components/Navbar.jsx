@@ -9,7 +9,7 @@ const Navbar = () => {
     <div className="z-50 px-4 md:px-[4vw] font-bob">
       <div className="flex h-[57px] items-center justify-between">
         {/* Company Name */}
-        <Link to="/" className="pl-1 font-bold text-xl md:text-2xl">
+        <Link to="/" className="font-bold text-xl md:text-2xl">
           <h1>McHugh & Gallagher Builders Ltd</h1>
         </Link>
 

@@ -11,9 +11,7 @@ import Hero2 from "../components/Hero2";
 const Home = () => {
   return (
     <div>
-      <Navbar />
       <Hero2 />
-      {/* <Hero /> */}
       {/* <Hero /> */}
       <Introduction />
       <HomeServices />

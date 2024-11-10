@@ -5,8 +5,7 @@ import Card from "../components/Card";
 const Gallery = () => {
   return (
     <div>
-      <Navbar />
-      <div className="vx-[4vw] flex flex-wrap">
+      <div className="mx-[4vw] flex flex-wrap">
       <div className="flex justify-evenly mt-7 w-full flex-wrap">
         <div className="p-5">
           <Card

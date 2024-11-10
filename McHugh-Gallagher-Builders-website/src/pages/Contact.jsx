@@ -6,7 +6,6 @@ import Footer from "../components/Footer";
 const Contact = () => {
   return (
     <div>
-      <Navbar />
       <div className="md:flex mx-[4vw] font-bob">
         <div className="flex flex-col justify-center">
           <p className="max-w-[500px] mb-7 text-lg">
