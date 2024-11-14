@@ -7,7 +7,7 @@ const HomeServices = () => {
       <div className="flex flex-wrap justify-evenly mt-7">
         <div className="p-5">
           <Card
-            image="src\images\new_builds.jpg"
+            image="./src\images\new_builds.jpg"
             alt="Picture of new house"
             title="New Builds"
             description="Building custom homes from the ground up with precision and expertise."
@@ -16,7 +16,7 @@ const HomeServices = () => {
         </div>
         <div className="p-5">
           <Card
-            image="src\images\extensions.jpg"
+            image="./src\images\extensions.jpg"
             alt="Newly built extension"
             title="Extensions"
             description="Seamlessly expand your living space with our tailored extension services."
@@ -25,7 +25,7 @@ const HomeServices = () => {
         </div>
         <div className="p-5">
           <Card
-            image="src\images\REVO.jpg"
+            image="./src\images\REVO.jpg"
             alt="Picture of Renovation done"
             title="Renovations"
             description="Transform and modernize your home with comprehensive renovation solutions."
@@ -34,7 +34,7 @@ const HomeServices = () => {
         </div>
         <div className="p-5">
           <Card
-            image="src\images\interiors.jpg"
+            image="./src\images\interiors.jpg"
             alt="Interior of a G=gym"
             title="Interiors"
             description="Elevate your interior spaces with expertly designed and executed finishes,"

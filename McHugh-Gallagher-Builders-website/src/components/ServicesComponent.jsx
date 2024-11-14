@@ -7,7 +7,7 @@ const ServicesComponent = () => {
       <div className="flex flex-wrap justify-evenly">
         <div className="p-5">
           <Card
-            image="src/images/new_builds.jpg"
+            image="./src/images/new_builds.jpg"
             alt="Picture of a newly built house"
             title="New Builds"
             description="Building custom homes from the ground up with precision and expertise."
@@ -16,7 +16,7 @@ const ServicesComponent = () => {
         </div>
         <div className="p-5">
           <Card
-            image="src/images/extensions.jpg"
+            image="./src/images/extensions.jpg"
             alt="Newly built home extension"
             title="Extensions"
             description="Seamlessly expand your living space with our tailored extension services."
@@ -25,7 +25,7 @@ const ServicesComponent = () => {
         </div>
         <div className="p-5">
           <Card
-            image="src/images/REVO.jpg"
+            image="./src/images/REVO.jpg"
             alt="Renovation work on a church"
             title="Renovations"
             description="Transform and modernize your home with comprehensive renovation solutions."
@@ -34,7 +34,7 @@ const ServicesComponent = () => {
         </div>
         <div className="p-5">
           <Card
-            image="src/images/interiors.jpg"
+            image="./src/images/interiors.jpg"
             alt="Interior design of a gym"
             title="Interiors"
             description="Elevate your interior spaces with expertly designed and executed finishes."
@@ -43,7 +43,7 @@ const ServicesComponent = () => {
         </div>
         <div className="p-5">
           <Card
-            image="src/images/Joinery.jpg"
+            image="./src/images/Joinery.jpg"
             alt="Custom joinery work in a modern kitchen"
             title="Joinery"
             description="Crafting bespoke joinery solutions to enhance the beauty and functionality of your spaces."
@@ -52,7 +52,7 @@ const ServicesComponent = () => {
         </div>
         <div className="p-5">
           <Card
-            image="src/images/HSE.jpg"
+            image="./src/images/HSE.jpg"
             alt="Health, Safety, and Environment work in construction"
             title="HSE Work"
             description="Trusted by the HSE to uphold the highest standards"
@@ -61,7 +61,7 @@ const ServicesComponent = () => {
         </div>
         <div className="p-5">
           <Card
-            image="src/images/curch.jpg"
+            image="./src/images/curch.jpg"
             alt="Council-approved construction project"
             title="Council Work"
             description="Managing and executing construction projects in compliance with local council regulations."
@@ -70,7 +70,7 @@ const ServicesComponent = () => {
         </div>
         <div className="p-5">
           <Card
-            image="src/images/Sunroom.jpg"
+            image="./src/images/Sunroom.jpg"
             alt="Bright and airy sunroom with panoramic views"
             title="Sunrooms"
             description="Designing and building sunrooms that bring the outdoors inside."
@@ -79,7 +79,7 @@ const ServicesComponent = () => {
         </div>
         <div className="p-5">
           <Card
-            image="src/images/Insurance.webp"
+            image="./src/images/Insurance.webp"
             alt="Insurance services for construction projects"
             title="Insurance"
             description="Providing comprehensive insurance solutions to protect your construction investments."
@@ -88,7 +88,7 @@ const ServicesComponent = () => {
         </div>
         <div className="p-5">
           <Card
-            image="src/images/school.jpg"
+            image="./src/images/school.jpg"
             alt="Construction project for educational institutions"
             title="Schools"
             description="Specializing in the construction and renovation of educational facilities."

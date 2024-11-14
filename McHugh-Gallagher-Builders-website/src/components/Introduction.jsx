@@ -8,7 +8,7 @@ const Introduction = () => {
           With over 40 years of experience in construction, McHugh & Gallagher
           Builders Ltd is a fully insured, tax-compliant, and CIF & CIRI
           registered contractor. We provide a comprehensive range of building
-          solutions, including{" "}
+          solutions, including
           <strong>new builds, extensions, renovations, and more</strong>. Our
           reputation for quality, reliability, and craftsmanship has made us a
           trusted partner in both residential and commercial projects.
