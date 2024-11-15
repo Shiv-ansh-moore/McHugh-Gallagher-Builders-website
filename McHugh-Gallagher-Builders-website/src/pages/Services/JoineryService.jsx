@@ -15,4 +15,3 @@ const Joinery = () => {
 };
 
 export default Joinery;
-

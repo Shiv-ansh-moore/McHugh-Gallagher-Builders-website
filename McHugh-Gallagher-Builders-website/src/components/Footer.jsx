@@ -42,13 +42,13 @@ const Footer = () => {
           <div className="md:w-1/3">
             <h3 className="text-xl font-semibold mb-4">Contact Us</h3>
             <p className="text-gray-400">
-              <strong>Address:</strong> 123 Main Street, City, Country
+              <strong>Address:</strong> Cliffoney
             </p>
             <p className="text-gray-400">
               <strong>Email:</strong> mchughandgallagher@gmail.com
             </p>
             <p className="text-gray-400">
-              <strong>Phone:</strong> +1 (123) 456-7890
+              <strong>Phone:</strong> +353 87 241 6400
             </p>
           </div>
         </div>
@@ -59,7 +59,10 @@ const Footer = () => {
             Ltd. All rights reserved.
           </p>
           <div className="flex space-x-4 mt-4 md:mt-0">
-            <a href="https://www.facebook.com/Sligobuilder/" className="text-gray-400 hover:text-yellow-300">
+            <a
+              href="https://www.facebook.com/Sligobuilder/"
+              className="text-gray-400 hover:text-yellow-300"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-6 w-6"

@@ -14,10 +14,10 @@ const Contact = () => {
             your questions.
           </p>
           <p>
-            <strong>Address:</strong>
+            <strong>Address:</strong> Cliffoney
           </p>
           <p>
-            <strong>Phone:</strong>
+            <strong>Phone:</strong> +353 87 241 6400
           </p>
           <p>
             <strong>Email:</strong> mchughandgallagher@gmail.com
