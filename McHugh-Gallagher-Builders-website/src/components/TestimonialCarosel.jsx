@@ -34,7 +34,7 @@ const TestimonialsCarousel = () => {
   };
 
   return (
-    <div className="relative mr-[4vw] ml-[4vw] mt-7 bg-slate-100 rounded-xl mb-2 h-[200px]">
+    <div className="relative mr-[4vw] ml-[4vw] mt-7 bg-slate-100 rounded-xl mb-2 h-[225px]">
       <Testimonial
         name={testimonials[currentIndex].name}
         text={testimonials[currentIndex].text}
