@@ -1,4 +1,5 @@
 import SlashServices from "../../components/SlashServices";
+import schoolImage from "../../images/school.jpg";
 
 const Schools = () => {
   return (
@@ -6,10 +7,11 @@ const Schools = () => {
       <SlashServices
         title="Schools"
         description="Our expertise in educational facility construction ensures safe, functional, and inspiring spaces for learning."
-        image="/src/images/school.jpg"
+        image={schoolImage}
         imageAlt="Construction project for educational institutions"
       />
     </div>
   );
 };
+
 export default Schools;
