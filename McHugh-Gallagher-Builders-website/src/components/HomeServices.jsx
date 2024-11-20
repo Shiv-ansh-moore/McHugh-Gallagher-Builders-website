@@ -50,7 +50,7 @@ const HomeServices = () => {
       </div>
       <div className="flex justify-center">
         <Link to="/Services">
-          <button className="bg-yellow-300 h-8 text-lg font-semibold w-[120px] rounded-xl">
+          <button className="bg-yellow-300 h-8 text-lg font-semibold w-[120px] rounded-xl hover:bg-yellow-400">
             See More
           </button>
         </Link>
