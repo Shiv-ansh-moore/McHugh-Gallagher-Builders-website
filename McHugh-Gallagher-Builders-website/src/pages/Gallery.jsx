@@ -6,7 +6,7 @@ import Card from "../components/Card";
 const Gallery = () => {
   return (
     <div className="mx-[4vw] font-bob flex flex-col items-center text-center py-10">
-      <h2 className="text-2xl md:text-3xl font-semibold mb-6">Gallery</h2>
+      <h2 className="text-2xl md:text-3xl font-semibold ">Gallery</h2>
       <div className="flex flex-wrap justify-evenly mt-7 w-full">
         <div className="p-5">
           <Card

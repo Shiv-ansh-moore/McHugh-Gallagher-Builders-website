@@ -13,7 +13,7 @@ const Card = ({image, alt, title, description, link = "/Services"}) => {
             <p className="text-gray-700 text-base text-center">{description}</p>
             <div className="flex justify-center my-2 py-4">
               <Link to={link}>
-                <button className="bg-slate-200 h-8 text-lg font-semibold w-[120px] rounded-xl">
+                <button className="bg-slate-200 h-8 text-lg font-semibold w-[120px] rounded-xl hover:bg-slate-300">
                   {title}
                 </button>
               </Link>

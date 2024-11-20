@@ -12,12 +12,12 @@ const Hero2 = () => {
         </p>
         <div className="flex py-5 justify-center">
           <Link to="/Contact">
-            <button className="bg-yellow-300 h-8 text-lg font-semibold w-[120px] mr-10 rounded-xl">
+            <button className="bg-yellow-300 h-8 text-lg font-semibold w-[120px] mr-10 rounded-xl hover:bg-yellow-400">
               Contact now
             </button>
           </Link>
           <Link to="/Services">
-            <button className="bg-yellow-300 h-8 text-lg font-semibold w-[120px] rounded-xl">
+            <button className="bg-yellow-300 h-8 text-lg font-semibold w-[120px] rounded-xl hover:bg-yellow-400">
               See Services
             </button>
           </Link>
