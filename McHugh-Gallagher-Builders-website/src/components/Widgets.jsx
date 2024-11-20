@@ -2,8 +2,9 @@ import React from "react";
 
 const Widgets = () => {
   return (
-    <div className="ml-[4vw] mr-[4vw] mt-7 flex flex-wrap justify-evenly">
+    <div className="ml-[4vw] mr-[4vw] mt-7 flex flex-wrap justify-evenly ">
       <iframe
+        className="hidden sm:block "
         src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FSligobuilder%2Fposts%2Fpfbid02pzTUEFG5XCFn1jW9YBJkPFsgZs7fWHfi6it68cRAQrFwSAgHWhUYWW1edpAAhFTKl&show_text=true&width=500"
         width="500"
         height="600"

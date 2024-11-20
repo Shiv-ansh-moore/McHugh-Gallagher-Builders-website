@@ -1,7 +1,17 @@
-// src/components/Gallery.jsx
-
 import React from "react";
 import Card from "../components/Card";
+
+// Import images
+import newBuildsImage from "../images/new_builds.jpg";
+import extensionsImage from "../images/extensions.jpg";
+import renovationsImage from "../images/REVO.jpg";
+import interiorsImage from "../images/interiors.jpg";
+import joineryImage from "../images/Joinery.jpg";
+import hseImage from "../images/HSE.jpg";
+import councilImage from "../images/curch.jpg";
+import sunroomImage from "../images/Sunroom.jpg";
+import insuranceImage from "../images/Insurance.webp";
+import schoolImage from "../images/school.jpg";
 
 const Gallery = () => {
   return (
@@ -9,67 +19,55 @@ const Gallery = () => {
       <h2 className="text-2xl md:text-3xl font-semibold ">Gallery</h2>
       <div className="flex flex-wrap justify-evenly mt-7 w-full">
         <div className="p-5">
-          <Card
-            image="src/images/new_builds.jpg"
-            alt="Picture of a newly built house"
-          />
+          <Card image={newBuildsImage} alt="Picture of a newly built house" />
+        </div>
+        <div className="p-5">
+          <Card image={extensionsImage} alt="Newly built home extension" />
+        </div>
+        <div className="p-5">
+          <Card image={renovationsImage} alt="Renovation work on a church" />
+        </div>
+        <div className="p-5">
+          <Card image={interiorsImage} alt="Interior design of a gym" />
         </div>
         <div className="p-5">
           <Card
-            image="src/images/extensions.jpg"
-            alt="Newly built home extension"
-          />
-        </div>
-        <div className="p-5">
-          <Card
-            image="src/images/REVO.jpg"
-            alt="Renovation work on a church"
-          />
-        </div>
-        <div className="p-5">
-          <Card
-            image="src/images/interiors.jpg"
-            alt="Interior design of a gym"
-          />
-        </div>
-        <div className="p-5">
-          <Card
-            image="src/images/Joinery.jpg"
+            image={joineryImage}
             alt="Custom joinery work in a modern kitchen"
           />
         </div>
         <div className="p-5">
           <Card
-            image="src/images/HSE.jpg"
+            image={hseImage}
             alt="Health, Safety, and Environment work in construction"
           />
         </div>
         <div className="p-5">
           <Card
-            image="src/images/curch.jpg"
+            image={councilImage}
             alt="Council-approved construction project"
           />
         </div>
         <div className="p-5">
           <Card
-            image="src/images/Sunroom.jpg"
+            image={sunroomImage}
             alt="Bright and airy sunroom with panoramic views"
           />
         </div>
         <div className="p-5">
           <Card
-            image="src/images/Insurance.webp"
+            image={insuranceImage}
             alt="Insurance services for construction projects"
           />
         </div>
         <div className="p-5">
           <Card
-            image="src/images/school.jpg"
+            image={schoolImage}
             alt="Construction project for educational institutions"
           />
         </div>
       </div>
-      
+
       {/* Added Message Section */}
       <div className="mt-10 px-5">
         <p className="text-lg md:text-xl">
@@ -90,4 +88,3 @@ const Gallery = () => {
 };
 
 export default Gallery;
-

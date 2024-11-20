@@ -1,5 +1,17 @@
 import Card from "./Card";
 
+// Import images
+import newBuildsImage from "../images/new_builds.jpg";
+import extensionsImage from "../images/extensions.jpg";
+import revoImage from "../images/REVO.jpg";
+import interiorsImage from "../images/interiors.jpg";
+import joineryImage from "../images/Joinery.jpg";
+import hseImage from "../images/HSE.jpg";
+import councilImage from "../images/curch.jpg";
+import sunroomImage from "../images/Sunroom.jpg";
+import insuranceImage from "../images/Insurance.webp";
+import schoolImage from "../images/school.jpg";
+
 const ServicesComponent = () => {
   return (
     <div className="mx-[4vw] font-bob flex flex-col items-center text-center py-10">
@@ -7,7 +19,7 @@ const ServicesComponent = () => {
       <div className="flex flex-wrap justify-evenly">
         <div className="p-5">
           <Card
-            image="src/images/new_builds.jpg"
+            image={newBuildsImage}
             alt="Picture of a newly built house"
             title="New Builds"
             description="Building custom homes from the ground up with precision and expertise."
@@ -16,7 +28,7 @@ const ServicesComponent = () => {
         </div>
         <div className="p-5">
           <Card
-            image="src/images/extensions.jpg"
+            image={extensionsImage}
             alt="Newly built home extension"
             title="Extensions"
             description="Seamlessly expand your living space with our tailored extension services."
@@ -25,7 +37,7 @@ const ServicesComponent = () => {
         </div>
         <div className="p-5">
           <Card
-            image="src/images/REVO.jpg"
+            image={revoImage}
             alt="Renovation work on a church"
             title="Renovations"
             description="Transform and modernize your home with comprehensive renovation solutions."
@@ -34,7 +46,7 @@ const ServicesComponent = () => {
         </div>
         <div className="p-5">
           <Card
-            image="src/images/interiors.jpg"
+            image={interiorsImage}
             alt="Interior design of a gym"
             title="Interiors"
             description="Elevate your interior spaces with expertly designed and executed finishes."
@@ -43,7 +55,7 @@ const ServicesComponent = () => {
         </div>
         <div className="p-5">
           <Card
-            image="src/images/Joinery.jpg"
+            image={joineryImage}
             alt="Custom joinery work in a modern kitchen"
             title="Joinery"
             description="Crafting bespoke joinery solutions to enhance the beauty and functionality of your spaces."
@@ -52,7 +64,7 @@ const ServicesComponent = () => {
         </div>
         <div className="p-5">
           <Card
-            image="src/images/HSE.jpg"
+            image={hseImage}
             alt="Health, Safety, and Environment work in construction"
             title="HSE Work"
             description="Trusted by the HSE to uphold the highest standards"
@@ -61,7 +73,7 @@ const ServicesComponent = () => {
         </div>
         <div className="p-5">
           <Card
-            image="src/images/curch.jpg"
+            image={councilImage}
             alt="Council-approved construction project"
             title="Council Work"
             description="Managing and executing construction projects in compliance with local council regulations."
@@ -70,7 +82,7 @@ const ServicesComponent = () => {
         </div>
         <div className="p-5">
           <Card
-            image="src/images/Sunroom.jpg"
+            image={sunroomImage}
             alt="Bright and airy sunroom with panoramic views"
             title="Sunrooms"
             description="Designing and building sunrooms that bring the outdoors inside."
@@ -79,7 +91,7 @@ const ServicesComponent = () => {
         </div>
         <div className="p-5">
           <Card
-            image="src/images/Insurance.webp"
+            image={insuranceImage}
             alt="Insurance services for construction projects"
             title="Insurance"
             description="Providing comprehensive insurance solutions to protect your construction investments."
@@ -88,7 +100,7 @@ const ServicesComponent = () => {
         </div>
         <div className="p-5">
           <Card
-            image="src/images/school.jpg"
+            image={schoolImage}
             alt="Construction project for educational institutions"
             title="Schools"
             description="Specializing in the construction and renovation of educational facilities."
@@ -101,3 +113,4 @@ const ServicesComponent = () => {
 };
 
 export default ServicesComponent;
+

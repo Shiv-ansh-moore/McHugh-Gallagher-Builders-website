@@ -1,13 +1,19 @@
 import Card from "./Card";
 import { Link } from "react-router-dom";
 
+// Import images
+import newBuildsImage from "../images/new_builds.jpg";
+import extensionsImage from "../images/extensions.jpg";
+import revoImage from "../images/REVO.jpg";
+import interiorsImage from "../images/interiors.jpg";
+
 const HomeServices = () => {
   return (
     <>
       <div className="flex flex-wrap justify-evenly mt-7">
         <div className="p-5">
           <Card
-            image="src\images\new_builds.jpg"
+            image={newBuildsImage}
             alt="Picture of new house"
             title="New Builds"
             description="Building custom homes from the ground up with precision and expertise."
@@ -16,7 +22,7 @@ const HomeServices = () => {
         </div>
         <div className="p-5">
           <Card
-            image="src\images\extensions.jpg"
+            image={extensionsImage}
             alt="Newly built extension"
             title="Extensions"
             description="Seamlessly expand your living space with our tailored extension services."
@@ -25,7 +31,7 @@ const HomeServices = () => {
         </div>
         <div className="p-5">
           <Card
-            image="src\images\REVO.jpg"
+            image={revoImage}
             alt="Picture of Renovation done"
             title="Renovations"
             description="Transform and modernize your home with comprehensive renovation solutions."
@@ -34,10 +40,10 @@ const HomeServices = () => {
         </div>
         <div className="p-5">
           <Card
-            image="src\images\interiors.jpg"
-            alt="Interior of a G=gym"
+            image={interiorsImage}
+            alt="Interior of a gym"
             title="Interiors"
-            description="Elevate your interior spaces with expertly designed and executed finishes,"
+            description="Elevate your interior spaces with expertly designed and executed finishes."
             link="/Services/Interior"
           />
         </div>
@@ -52,4 +58,6 @@ const HomeServices = () => {
     </>
   );
 };
+
 export default HomeServices;
+

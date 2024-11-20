@@ -60,7 +60,7 @@ const Hero = () => {
       <div className="absolute right-0">
         <img
           ref={imageRef}
-          src="src/images/hero.webp"
+          src="./src/images/hero.webp"
           className="min-w-[60vw] max-w-[70vw] max-h-[60vh] opacity-90"
           alt="Hero Image"
         />
