@@ -6,7 +6,7 @@ const TestimonialsCarousel = () => {
   const testimonials = [
     {
       name: "Pierce Flanagan",
-      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur ex culpa, alias labore.",
+      text: "Very Professional, Work done to an extremely high standard. Very Happy with my result",
     },
     {
       name: "Jane Doe",
